@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>La Poudre</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800&display=swap" rel="stylesheet">
+</head>
+<body onload="loader()">
+    <div id="loader">
+        <section class="loadingContainer">
+        <img src="images/welcome.png">
+        <div class="loader"></div>
+    </div>
+    <div id="fullContent">
+    <!-- Menu Sidebar  -->
+    <header id="headerContainer">
+        <div class="headerMenu">
+            <nav class="headerNav">
+                <a href="index.html">Le Podcast</a>
+                <a href="ecouter.html">Écouter</a>
+                <a href="approfondir.html">Approfondir</a>
+                <a href="apropos.html">À propos</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+        <div class="headerFilter"></div>
+    </header>
+
+    <!-- Menu visible -->
+
+    <section id="visibleHeader">
+        <div class="visibleIcon">
+        <a href="index.html" title="homeButton">
+            <img src="images/logo.png" alt="logo La Poudre"></a>
+        <div class="menuButton">
+            <img src="images/menugris.png" alt="logo menu gris">
+        </div>
+        </div>
+        <div class="socialNetwork">
+                <a href="https://www.facebook.com/LaPoudrePodcast/">
+                <img src="images/facebook.png" alt="logo Facebook"></a>
+                <a href="https://www.instagram.com/lapoudretv/?hl=fr">
+                <img src="images/instagram.png" alt="logo Instagram"></a>
+                <a href="https://twitter.com/lapoudrene">
+                <img src="images/twitter.png" alt="logo Twitter"></a>
+            </div>
+    </section>
+
+    <!-- Le Podcast -->
+    <section id="lepodcastContainer">
+        <h1>Le Podcast</h1>
+        <h2>Le dernier épisode</h2>
+        <div class="lastEpisode">
+            <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/628455936&color=%23846a5d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+            </iframe>
+            <div class="listenButton">
+            <a href="ecouter.html">Écouter les<br>épisodes<br> précédents</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- À la Une -->
+    <section class="uneContainer">
+        <h2>À la Une</h2>
+        <article class="uneArticle">
+            <div class="uneTexte">
+                <p><strong>L’intersectionnalité</strong> permet d’intégrer les différences entre les femmes,
+                permettant d’aller au delà de la notion même de féminisme. Ce prisme offre aussi
+                un nouvel espace de visibilité aux femmes qui subissent à la fois le sexisme et
+                le racisme, le classisme, l’homophobie,  la transphobie, mais aussi transphobie,
+                homophobie, classisme et racisme au sein du féminisme.
+                </p>
+                <div class="uneCaption">
+                <p>Le féminisme sera intersectionnel ou ne sera pas</p>
+                </div>
+            </div>
+            <img src="images/manywomen.png" alt="multitude de femmes dessinées">
+        </article>
+    </section>
+
+    <script src="app.js"></script>
+</div>
+</body>
+</html>
